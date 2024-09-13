@@ -1,9 +1,6 @@
-interface LocationType {
-  id: number;
-  title: string;
-}
+import { LocationType } from "../@types";
 
-const locationData: LocationType[] = [
+export const locationData: LocationType[] = [
   {
     id: 1,
     title: "Andijon",
@@ -64,141 +61,24 @@ const locationData: LocationType[] = [
     id: 15,
     title: "Chimboy",
   },
+  {
+    id: 16,
+    title: "Chinoz",
+  },
+  {
+    id: 17,
+    title: "Chirchiq",
+  },
+  {
+    id: 18,
+    title: "Chiroqchi",
+  },
+  {
+    id: 19,
+    title: "Chortoq",
+  },
+  {
+    id: 20,
+    title: "Chust",
+  },
 ];
-
-/*
-
-Chinoz
-Chirchiq
-Chiroqchi
-Chortoq
-Chust
-Dang'ara
-Denov
-Do'stlik
-Do'stobod
-Eshongʻuzor shaharchasi
-Farg‘ona
-Furqat
-G'o's
-G`allaorol
-Gagarin
-Galaosiya
-Gijduvon
-Goliblar
-Gulbahor
-Guliston
-Gulobod
-Gurlan
-Gʻuzor
-G‘azalkent
-Ibrat
-Ishtixon
-Ispanza
-Jalaquduq
-Jarqoʻrgʻon
-Jizzax
-Jizzaxlik
-Jomboy
-Jondor
-Juma
-Karmana
-Kattaqo'rg'on
-Keles
-Kitob
-Kogon
-Koson
-Koʼksaroy
-Loyish
-Mang'it
-Marg‘ilon
-Marhamat
-Muborak
-Mulkanlik
-Namangan
-Navoiy
-Navro'z
-Nazarbek
-Nukus
-Nurafshon
-Nurobod
-Nurota
-Ohangaron
-Olmaliq
-Olmazar (Chinoz tumani)
-Olot
-Oltinko'l
-Oqoltin
-Oqqo'rg'on
-Oqtosh
-Parkent
-Paxtakor
-Paxtaobod
-Payariq
-Payshanba
-Piskent
-Pitnak
-Pop
-Poytugʻ
-Qarshi
-Qibray
-Qo'ng'irot
-Qora Xitoy
-Qorako`l
-Qorasuv (Andijon vil.)
-Qorovulbozor
-Qoʻrgʻontepa
-Qo‘qon
-Quva
-Quvasoy
-Rishton
-Romitan
-Salar
-Samarqand
-Sardoba
-Shahrisabz
-Shahrixon
-Sherobod
-Sho'rchi
-Shofirkon
-Sirdaryo
-Taxiatosh
-Termiz
-To'raqo'rg'on
-To'rtko'l
-Tanlandi
-Toshkent
-Toshloq
-Toyloq
-Turg'oq
-Uchko'prik
-Uchqo'rg'on
-Uchquduq
-Uchtepa
-Uramas
-Urganch
-Urgut
-Uychi
-Vobkent
-Vodil
-Xanka
-Xaqqulobod
-Xiva
-Xonobod
-Xovos
-Xoʻjaobod
-Xoʻjayli
-Yakkabog'
-Yangi Hayot
-Yangi Margʻilon
-Yangibozor
-Yangiqoʻrgʻon
-Yangiyer
-Yangiyoʻl
-Yaypan
-Zangiota
-Zarafshon
-Zarbdor
-Ziyodin
-Zomin
-*/

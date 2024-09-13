@@ -9,7 +9,7 @@ interface useAxiosType {
 export const useAxios = () => {
   const request = ({ url, body, method = "GET" }: useAxiosType) => {
     return axios({
-      url: `${import.meta.env.BASE_URL}/${url}`,
+      url: `${import.meta.env.VITE_APP_BASE_URL}/${url}`,
       method,
       data: body,
       headers: {

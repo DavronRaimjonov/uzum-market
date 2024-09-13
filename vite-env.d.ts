@@ -1,6 +1,5 @@
 interface ImportMetaEnv {
-  readonly BASE_URL: string;
-  // boshqa o'zgaruvchilarni ham shu yerda e'lon qilishingiz mumkin
+  readonly VITE_APP_BASE_URL: string;
 }
 
 interface ImportMeta {
